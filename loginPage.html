@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UTFChat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div align="center">
+      <img id="logo" src="logo.png" alt="logo"/>
+    </div>
+    <div id='app' style='display:none'>
+        <div id="login">
+            <input type="text" id="user" name="userInput" placeholder="Usário"><br><br>
+            <input type="text" id="course" name="courseInput" placeholder="Curso"><br><br>
+            <button id="btnHome">Conectar</button>
+      </div>
+    <script>
+      // You can also require other files to run in this process
+      require('./rendererLoginPage.js')
+    </script>
+  </body>
+</html>

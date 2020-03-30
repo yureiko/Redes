@@ -8,15 +8,16 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800,
+    width: 1000,
     height: 600,
+    //icon: "iconT.png",
     webPreferences: {
       nodeIntegration: true
     }
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('loginPage.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
