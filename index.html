@@ -3,12 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <title>UTFChat</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="plotly-latest.min.js"></script>
   </head>
-  <body>
-    <p></p>
+  <body style="background-color: white;">
+    <h1 id="username"></h1>
+    <p id="userCourse"></p>
+    <hr/>
+    <p id="contats">Contatos disponíveis</p>
+    <dl id="contatsList">
+      <dt>Gabriel</dt>
+      <div class="container">
+        <dd class="course">Técnico em mecânica</dd>
+        <button id="talkButton">Conversar</button>   
+      </div>
+      <hr/>
+      <dt>Maria Fernanda</dt>
+      <div class="container">
+        <dd class="course">Engenharia de Computação</dd>
+        <button id="talkButton">Conversar</button>   
+      </div>
+      <hr/>
+    </dl>
     <script>
       // You can also require other files to run in this process
       require('./rendererInitialPage.js')

@@ -1,0 +1,49 @@
+#username{
+    background-color:powderblue;;
+}
+
+#userCourse{
+    background-color:powderblue;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h1.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+#userCourse{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#contats{
+    margin: 15px;
+    background-color: #ace600;
+}
+
+#contatsList{
+    margin: 15px;
+}
+
+.container
+{ 
+  overflow: hidden;
+}
+.text
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block; 
+}
+button
+{
+    float: right; 
+    background-color:#ace600;
+    border-radius: 10px;   
+}
