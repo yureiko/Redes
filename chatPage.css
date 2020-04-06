@@ -1,0 +1,33 @@
+#username{
+    background-color:powderblue;;
+}
+
+#userCourse{
+    background-color:powderblue;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h1.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+#userCourse{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#closeChatButton {
+    position: absolute;
+    background-color: red;
+    width: 22px;
+    height: 20px;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    z-index:220;
+  }

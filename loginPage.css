@@ -81,13 +81,15 @@ input[type=text] {
   border-radius: 5px;
 }
 
-input[type=submit] {
-  position:absolute;
-  left:60%;
-  background-color: #2196F3;
-  border-radius: 5px;
-}
-
 #logo{
   width:382px;
+}
+
+button
+{
+    position:absolute;
+    left:90%;
+    float: right; 
+    background-color:#2196F3;
+    border-radius: 10px;   
 }

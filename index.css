@@ -21,12 +21,12 @@ h1.page-header {
 
 }
 
-#contats{
+#contacts{
     margin: 15px;
     background-color: #ace600;
 }
 
-#contatsList{
+#contactsList{
     margin: 15px;
 }
 
@@ -43,7 +43,7 @@ h1.page-header {
 }
 button
 {
-    float: right; 
+    left: 80%;
     background-color:#ace600;
     border-radius: 10px;   
 }

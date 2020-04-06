@@ -1,10 +1,9 @@
+
 $("#logo").show()
 setTimeout(function () { $("#logo").hide() }, 2000)
 setTimeout(function () {
-	$("#app").show() 
-	$('#clientDiv').hide()
-	$('#serverDiv').show()
-	}, 2000)
+	$("#app").show() },
+	2000)
 
 $(document).ready( function() {
 
