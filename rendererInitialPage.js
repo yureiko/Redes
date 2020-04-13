@@ -1,8 +1,5 @@
-let user = require('./rendererLoginPage.js')
-let course = require('./rendererLoginPage.js')
-
-//console.log(user.user);
-//console.log(user.course);
+var user = require('./rendererLoginPage.js')
+var course = require('./rendererLoginPage.js')
 
 $("h1").html(user.user);
 $("#userCourse").html(user.course);
@@ -20,11 +17,19 @@ if (nobodyIsOnline){
 $(document).ready( function() {
 
 	$('button.chatButton').click(function() {
-		$("#app").load("chatPage.html");
 		contactId = '#contact' + $(this).attr("id");
+		console.log(contactId);
+		console.log($(contactId).find('dt').text());
+		console.log($(contactId).find('dd').text())
 		module.exports.contactName = $(contactId).find('dt').text();
 		module.exports.contactCourse = $(contactId).find('dd').text();
+		$("#app").load("chatPage.html");
+		$.getScript("rendererChatPage.js", function(){});
 	});
 });
+
+// problema: na primeira vez que tento abrir outro contato dá erro, mas depois funciona 
+// ainda não entendi o motivo
+
 
 
